@@ -4,7 +4,7 @@
 # Packages
 # ----------------------------------------------------------
 
-SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 source $SCRIPT_DIR/share/packages/arch.sh
 
 # ----------------------------------------------------------
@@ -104,23 +104,24 @@ echo -e "${NONE}"
 while true; do
     read -p "DO YOU WANT TO START THE PACKAGE INSTALLATION NOW? (Yy/Nn): " yn
     case $yn in
-        [Yy]*)
-            echo ":: Installation started."
-            echo
-            break
-            ;;
-        [Nn]*)
-            echo ":: Installation canceled"
-            exit
-            break
-            ;;
-        *)
-            echo ":: Please answer yes or no."
-            ;;
+    [Yy]*)
+        echo ":: Installation started."
+        echo
+        break
+        ;;
+    [Nn]*)
+        echo ":: Installation canceled"
+        exit
+        break
+        ;;
+    *)
+        echo ":: Please answer yes or no."
+        ;;
     esac
 done
 
 # Install yay if needed
+# TODO: Make this work fine with paru
 if [[ $(_checkCommandExists "yay") == 0 ]]; then
     echo ":: yay is already installed"
 else
@@ -137,7 +138,7 @@ _installPackages "${packages[@]}"
 ml4w_app="com.ml4w.hyprlandsettings"
 ml4w_app_repo="hyprland-settings"
 echo ":: Installing $ml4w_app"
-bash -c "$(curl -s https://raw.githubusercontent.com/mylinuxforwork/$ml4w_app_repo/master/setup.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/rlperez/$ml4w_app_repo/master/setup.sh)"
 
 # ----------------------------------------------------------
 # Completed
