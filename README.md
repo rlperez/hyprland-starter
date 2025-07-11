@@ -7,7 +7,7 @@
 
 ## Fork
 
-This is my fork that makes adjustments to the amazing work done by [mylinuxforwork](https://github.com/mylinuxforwork/) to make Hyprland more accessible to new users. As with most things, people have individual preferences and my fork adjusts some of the software choices to those I favor. There are no guarantees that this works on any hardware but mine. All of my computers running desktop Linux are all AM4 Ryzen and Radeon based. Below are the summary of changes.
+This is my fork that makes adjustments to the amazing work done by [mylinuxforwork](https://github.com/mylinuxforwork/) to make Hyprland more accessible to new users. As with most things, people have individual preferences and my fork adjusts some of the software choices to those I favor. There are no guarantees that this works on any hardware but mine. All of my computers running desktop Linux are all AM4 Ryzen and Radeon based running Arch derivative distros so I have not updated the Fedora or OpenSUSE configuration files. Below are the summary of changes.
 
 **Changes**
 - Use LibreWolf instead of Firefox for a more secure browser. Using a Firefox fork also sidesteps some of Mozilla's questionable TOS changes.
@@ -31,7 +31,7 @@ More information about the installation of the Dotfiles Installer here: https://
 Copy the following url into the Dotfiles Installer.
 
 ```
-https://raw.githubusercontent.com/mylinuxforwork/hyprland-starter/main/hyprland-starter.dotinst
+https://raw.githubusercontent.com/rlperez/hyprland-starter/main/hyprland-starter.dotinst
 ```
 Please run the setup script offered by the Dotfiles Installer to install all dependencies. If your distribution is not supported, please install the following dependencies manually:
 
