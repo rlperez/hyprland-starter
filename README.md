@@ -12,13 +12,13 @@ This is my fork that makes adjustments to the amazing work done by [mylinuxforwo
 **Changes**
 - Use LibreWolf instead of Firefox for a more secure browser. Using a Firefox fork also sidesteps some of Mozilla's questionable TOS changes.
 - Use Dolphin instead of Thunar. Most of my years as a Linux user I've used Dolphin so I may as well keep going.
-- Use [Foot](https://codeberg.org/dnkl/foot) instead of [Kitty](https://sw.kovidgoyal.net/kitty/). Kitty and [Alacritty](https://alacritty.org/) are fine choices that provide nice things such as GPU acceleration, ligatures, sixel, etc. Foot provides most of that except GPU acceleration and it's defaults work better for me when I use [Zellij](https://zellij.dev/), [Fish](https://fishshell.com/), and ([Doom](https://github.com/doomemacs/doomemacs)) Emacs in the terminal. On my hardware (Ryzen 9 5900X) I don't particularly notice any difference in performance.
+- Use [Foot](https://codeberg.org/dnkl/foot) instead of [Kitty](https://sw.kovidgoyal.net/kitty/). Kitty and [Alacritty](https://alacritty.org/) are fine choices that provide nice things such as GPU acceleration, ligatures, sixel, etc. Foot provides most of that except GPU acceleration and it's defaults work better for me when I use [Zellij](https://zellij.dev/), [Fish](https://fishshell.com/), and ([Doom](https://github.com/doomemacs/doomemacs)) Emacs in the terminal. On my hardware (Ryzen 9 5900X) I don't particularly notice any difference in performance with or without GPU hardware acceleration even with transparency.
 
 ## Description
 
 The ML4W Hyprland Starter package is the perfect starting point for your Hyprland customization experiments. The Hyprland Starter configuration works on all Linux distributions that support the dynamic tiling window manager Hyprland.
 
-You can find configurations here: https://github.com/mylinuxforwork/hyprland-starter/tree/main/dotfiles
+You can find configurations here: https://github.com/rlperez/hyprland-starter/tree/main/dotfiles
 
 ## Installation
 
