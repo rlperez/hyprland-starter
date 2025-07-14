@@ -138,7 +138,7 @@ _installPackages "${packages[@]}"
 ml4w_app="com.ml4w.hyprlandsettings"
 ml4w_app_repo="hyprland-settings"
 echo ":: Installing $ml4w_app"
-bash -c "$(curl -s https://raw.githubusercontent.com/rlperez/$ml4w_app_repo/master/setup.sh)"
+bash -c "$(curl -s https://raw.githubusercontent.com/mylinuxforwork/$ml4w_app_repo/master/setup.sh)"
 
 # ----------------------------------------------------------
 # Completed
